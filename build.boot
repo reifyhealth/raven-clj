@@ -11,7 +11,7 @@
  pom {:project 'raven-clj
       :version "1.4.3"
       :description "Sentry clojure client"
-      :url "http://github.com/sethtrain/raven-clj"
+      :url "https://github.com/reifyhealth/raven-clj"
       :license {"EPL" "http://www.eclipse.org/legal/epl-v10.html"}})
 
 (require '[adzerk.boot-test :refer [test]])

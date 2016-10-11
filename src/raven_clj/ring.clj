@@ -4,7 +4,8 @@
 
 (defn capture-error [dsn req ^Throwable error extra app-namespaces http-alter-fn]
   (future (capture dsn (-> (merge extra
-                                  {:message (.getMessage error)})
+                                  {:message (.getMessage error)
+                                   :ex-data (ex-data error)})
                            (http req http-alter-fn)
                            (stacktrace error app-namespaces)))))
 

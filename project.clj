@@ -1,4 +1,4 @@
-(defproject com.github.reifyhealth/raven-clj "1.4.3"
+(defproject com.github.reifyhealth/raven-clj "1.4.4"
   :description "Sentry clojure client"
   :url "https://github.com/reifyhealth/raven-clj"
   :license {:name "Eclipse Public License"
